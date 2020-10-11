@@ -72,7 +72,7 @@ h2 {
   margin-top: 0px;
 }
 .cards {
-  width: 65%;
+  width: 85%;
   margin: 35px auto;
   display: flex;
   /* border: 1px solid grey; */
@@ -100,7 +100,7 @@ h2 {
   margin-top: 15px;
 }
 p {
-  font-size: 25px;
+  font-size: 23px;
   font-family: "Lato", sans-serif;
   padding: 20px;
   margin: 5px 0px;
