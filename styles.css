@@ -4,7 +4,7 @@ body {
   background-color: cornsilk;
 }
 .container {
-  width: 100% !important;
+  width: 100%;
   /* height: 120px; */
   background-color: darkcyan;
   display: flex;
@@ -27,6 +27,7 @@ body {
   flex-wrap: wrap;
   /* justify-content: center; */
   margin-top: 33px;
+  padding: 2px 8px;
 }
 .navbar ul li {
   font-size: 25px;
@@ -70,7 +71,7 @@ h2 {
   margin-top: 0px;
 }
 .cards {
-  width: 90%;
+  width: 75%;
   margin: 35px auto;
   display: flex;
   /* border: 1px solid grey; */
@@ -88,7 +89,7 @@ h2 {
   height: 300px;
   object-fit: cover;
   border-radius: 5px;
-  margin: 0px auto;
+  /* margin: 0px auto; */
 }
 .card-text-title {
   font-size: 35px;
@@ -98,7 +99,7 @@ h2 {
   margin-top: 15px;
 }
 p {
-  font-size: 18px;
+  font-size: 25px;
   font-family: "Lato", sans-serif;
   padding: 20px;
   margin: 5px 0px;
@@ -106,6 +107,7 @@ p {
 }
 .valoracion {
   margin-bottom: 50px;
+  margin-right: 10px;
 }
 .fas {
   font-size: 30px;
@@ -120,6 +122,16 @@ p {
 }
 
 /*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1024px) {
+  .cards {
+    width: 90%;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (max-width: 785px) {
   .cards {
     flex-direction: column;
