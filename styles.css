@@ -29,7 +29,7 @@ body {
   margin-top: 33px;
   padding: 2px 8px;
 }
-.navbar ul li {
+.navbar ul li a {
   font-size: 25px;
   color: aquamarine;
   margin: 0px 15px;
@@ -38,7 +38,7 @@ body {
   -webkit-animation: all 2s;
   justify-content: space-between;
 }
-.navbar ul li:hover {
+.navbar ul li a:hover {
   color: gold;
   cursor: pointer;
   /* font-size: 28px; */
@@ -67,11 +67,12 @@ h2 {
   font-family: "Dancing Script", cursive;
   text-align: right;
   font-size: 20px;
-  margin-right: 35px;
+  margin-right: -200px;
+  text-align: center;
   margin-top: 0px;
 }
 .cards {
-  width: 75%;
+  width: 65%;
   margin: 35px auto;
   display: flex;
   /* border: 1px solid grey; */
